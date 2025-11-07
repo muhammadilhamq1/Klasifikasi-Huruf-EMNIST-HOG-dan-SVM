@@ -1,1 +1,27 @@
-# Klasifikasi-Huruf-EMNIST-HOG-dan-SVM
+# Klasifikasi-Huruf-Menggunakan-HOG-dan-SVM
+Deskripsi Proyek
+
+Proyek ini bertujuan untuk melakukan klasifikasi huruf alfabet (A–Z) dari dataset EMNIST Letters menggunakan kombinasi Histogram of Oriented Gradients (HOG) sebagai ekstraksi fitur dan Support Vector Machine (SVM) sebagai model klasifikasi.
+Pendekatan ini mengutamakan efisiensi komputasi dan interpretabilitas model, sehingga cocok untuk sistem klasifikasi tulisan tangan dengan dataset menengah tanpa memerlukan GPU.
+
+Dataset
+
+Nama dataset: EMNIST Letters
+
+Jumlah kelas: 26 huruf (A–Z)
+
+Format: CSV (gambar 28×28 piksel, grayscale, label huruf 1–26)
+
+File name : emnist-letters-train.csv  
+
+Sumber: Kaggle / NIST EMNIST dataset
+
+⚠️ File dataset tidak disertakan di repository karena ukurannya melebihi batas GitHub (100 MB).
+Unduh secara manual dari https://www.kaggle.com/datasets/crawford/emnist
+<img width="1500" height="547" alt="image" src="https://github.com/user-attachments/assets/e5dedbe0-cc26-4687-aa35-d53d401e459d" />
+
+
+Extrak file dataset kemudian ambil emnist-letters-train.csv lalu letakkan di direktori proyek sebelum menjalankan kode.
+
+<img width="711" height="90" alt="image" src="https://github.com/user-attachments/assets/828d8c30-8dba-4af1-b4d1-12692b7d19e1" />
+
